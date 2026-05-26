@@ -49,6 +49,7 @@ The following are allowed.
       - ℹ️ This does not allow reposting the summary publicly. This only includes your own personal use.
   - Asking an LLM to privately review your code or prose.
       - ℹ️ This does not apply to public comments by the LLM. See "review bots" under ⚠️ below.
+      - ℹ️ Using an LLM to *edit* your writing requires disclosure. See "writing edits" under ⚠️ below.
   - Writing dev-tools for your own personal use using an LLM.
   - Using an LLM to generate possible solutions to an issue, learning from them, and then writing something from scratch in your own style.
 - Using an LLM in the creation of clearly experimental code changes that are not meant to be reviewed but must live as PRs on `rust-lang/rust` for tooling reasons, such as to run crater or perf.
@@ -85,6 +86,10 @@ All uses under "⚠️ Allowed with caveats" **must** disclose that an LLM was u
 - Using machine-translation (e.g. Google Translate) from your native language without posting your original message.
   Doing so can introduce new miscommunications that weren't there originally, and prevents someone who speaks the language from providing a better translation.
     - ℹ️ Posting both your original message and the translated version is always ok, but you must still disclose that machine-translation was used.
+- "Semantically-preserving" writing edits.
+    - Edits are semantically-preserving if the writing has the same meaning before and after.
+      The size of the change is not important as long as the meaning is the same.
+    - See also "review your writing" under ✅ above.
 - "Trivial" code or prose changes.
     - ℹ️ Changes are trivial if there is no other way to write them, or the other ways to write them are nearly identical. For example, the following are all trivial:
         - Typo fixes
